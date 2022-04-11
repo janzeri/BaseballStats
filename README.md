@@ -1,2 +1,0 @@
-# BaseballStats
-Andoroid Studio Project
