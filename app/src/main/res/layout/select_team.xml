@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        android:text="次へ"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="486dp"
+        tools:layout_editor_absoluteY="1156dp" />
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        android:text="戻る"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="1156dp" />
+
+    <TextView
+        android:id="@+id/team_a"
+        android:layout_width="274dp"
+        android:layout_height="106dp"
+        android:text="A高校"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/team_b"
+        android:layout_width="274dp"
+        android:layout_height="106dp"
+        android:text="B高校"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="486dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="57dp"
+        android:text="VS"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/new_team_a"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        android:text="新規入力"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/new_team_b"
+        android:layout_width="277dp"
+        android:layout_height="84dp"
+        android:text="新規入力"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="486dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <SearchView
+        android:layout_width="329dp"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="452dp">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="455dp"
+            tools:layout_editor_absoluteY="448dp">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="448dp" />
+        </SearchView>
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="448dp" />
+    </SearchView>
+
+    <SearchView
+        android:layout_width="296dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="477dp"
+        tools:layout_editor_absoluteY="456dp">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="455dp"
+            tools:layout_editor_absoluteY="448dp">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="448dp" />
+        </SearchView>
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="448dp" />
+    </SearchView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
