@@ -12,7 +12,7 @@ public class SubActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ball_direction);
 
-        Button backButton = findViewById(R.id.bt_back);
+        Button backButton = findViewById(R.id.bt_batting);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="817dp"
-        android:layout_height="1378dp"
+        android:layout_width="807dp"
+        android:layout_height="1298dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -18,35 +18,167 @@
         app:srcCompat="@drawable/ground" />
 
     <Button
-        android:id="@+id/bt_back"
+        android:id="@+id/bt_out"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="924dp"
+        android:background="#FF5722"
+        android:text="アウト"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_batting"
         android:layout_width="254dp"
         android:layout_height="114dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="1068dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
         android:background="#FF5722"
-        android:text="メイン画面に戻る"
+        android:text="打った"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/bt_back"
+        android:layout_width="196dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FF5722"
+        android:text="一つ戻す"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_go"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_go"
+        android:layout_width="196dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="305dp"
+        android:background="#FF5722"
+        android:text="一つ進む"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/bt_finish"
+        android:layout_width="254dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="516dp"
+        android:layout_marginTop="60dp"
+        android:background="#FF5722"
+        android:text="完了"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_bunt"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="888dp"
+        android:background="#FF5722"
+        android:text="犠打"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_ground_ball"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="980dp"
+        android:layout_marginEnd="11dp"
+        android:background="#FF5722"
+        android:text="ゴロ"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toStartOf="@+id/bt_out"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_liner"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1076dp"
+        android:background="#FF5722"
+        android:text="ライナー"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_error"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="536dp"
+        android:layout_marginTop="884dp"
+        android:background="#FF5722"
+        android:text="エラー"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_hit"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="536dp"
+        android:layout_marginTop="980dp"
+        android:background="#FF5722"
+        android:text="一塁打"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_twobase_hit"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="536dp"
+        android:layout_marginTop="1076dp"
+        android:background="#FF5722"
+        android:text="二塁打"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_fry"
+        android:layout_width="245dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1176dp"
+        android:background="#FF5722"
+        android:text="フライ"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/first"
         android:layout_width="112dp"
-        android:layout_height="103dp"
+        android:layout_height="112dp"
         tools:layout_editor_absoluteX="494dp"
         tools:layout_editor_absoluteY="677dp" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/second"
         android:layout_width="112dp"
-        android:layout_height="103dp"
+        android:layout_height="112dp"
         tools:layout_editor_absoluteX="344dp"
         tools:layout_editor_absoluteY="537dp" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/third"
         android:layout_width="112dp"
-        android:layout_height="103dp"
+        android:layout_height="112dp"
         tools:layout_editor_absoluteX="191dp"
         tools:layout_editor_absoluteY="667dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
