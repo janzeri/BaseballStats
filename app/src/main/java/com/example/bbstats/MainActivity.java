@@ -34,7 +34,5 @@ public class MainActivity extends AppCompatActivity {
 
         Button nextButton = findViewById(R.id.direction_ball);
 
-
-
     }
 }
