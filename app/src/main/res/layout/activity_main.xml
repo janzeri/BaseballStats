@@ -12,8 +12,10 @@
         android:layout_height="131dp"
         android:layout_marginTop="1059dp"
         android:layout_marginEnd="5dp"
+        android:layout_marginBottom="90dp"
         android:text="ランナーアウト"
         android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,13 +24,13 @@
         android:layout_width="249dp"
         android:layout_height="84dp"
         android:layout_marginStart="196dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginBottom="960dp"
         android:text="佐賀西高校"
         android:textAlignment="center"
         android:textSize="60sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button9"
@@ -78,8 +80,10 @@
         android:layout_height="105dp"
         android:layout_marginTop="929dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="246dp"
         android:text="打った"
         android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,8 +93,10 @@
         android:layout_height="105dp"
         android:layout_marginTop="799dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="376dp"
         android:text="ファール"
         android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,8 +106,10 @@
         android:layout_height="105dp"
         android:layout_marginTop="669dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="506dp"
         android:text="DB"
         android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,8 +119,10 @@
         android:layout_height="105dp"
         android:layout_marginTop="534dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="641dp"
         android:text="ボール"
         android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -132,23 +142,20 @@
         android:layout_width="378dp"
         android:layout_height="85dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginBottom="855dp"
         android:text="1番　江口遼太郎"
         android:textSize="48sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/strike_zone"
         android:layout_width="516dp"
         android:layout_height="744dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="404dp"
-        android:layout_marginBottom="138dp"
+        android:layout_marginBottom="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/strike_zone" />
 
     <Button
@@ -167,12 +174,21 @@
         android:layout_width="189dp"
         android:layout_height="84dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="236dp"
+        android:layout_marginBottom="960dp"
         android:text="先行"
         android:textAlignment="center"
         android:textSize="60sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+     <com.example.bbstats.BallView
+        android:id="@+id/view"
+        android:layout_width="520dp"
+        android:layout_height="523dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="240dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
